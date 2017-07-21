@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <% include ../partials/head %>
+
+  <link href="css/empresa.css" rel="stylesheet">
+
+  <title>QVO - Nuestra Empresa</title>
+</head>
+<body>
+    <% include ../partials/nav %>
+
+    <!--intro home-->
+    <div class="container-fluid fuera fuera-suscripciones">
+        <div class="container dentro">
+            <div class="section">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 text-center texto_equipo">
+                          <h2>Somos QVO y este es nuestro equipo</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada sed risus varius fermentum. Suspendisse eu euismod nisi. </p>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-4 personajes">
+                          <img src="img/assets/personajes/waldo.jpg" class="img-quadrata center-block">
+
+                          <h3 class="text-center">
+                            WALDO URIBE
+                            <br/>
+                            <small> COO</small>
+                          </h3>
+                      </div>
+                      <div class="col-md-4 personajes">
+                          <img src="img/assets/personajes/mati.jpg" class="center-block img-quadrata">
+
+                          <h3 class="text-center">
+                            MATÍAS MENICH
+                            <br/>
+                            <small> CTO</small>
+                          </h3>
+                      </div>
+                      <div class="col-md-4 personajes">
+                          <img src="img/assets/personajes/oscar.jpg" class="center-block img-quadrata">
+
+                          <h3 class="text-center">
+                            OSCAR QUEVEDO
+                            <br/>
+                            <small> CEO</small>
+                          </h3>
+                      </div>
+
+                      <div class="col-md-4 personajes">
+                          <img src="img/assets/personajes/rafa.jpg" class="center-block img-quadrata">
+
+                          <h3 class="text-center">
+                            RAFAEL BOTTAI
+                            <br/>
+                            <small> COO</small>
+                          </h3>
+                      </div>
+
+                      <div class="col-md-4 personajes">
+                          <img src="img/assets/personajes/francisco.jpg" class="center-block img-quadrata">
+
+                          <h3 class="text-center">
+                            FRANCISCO KATALDO
+                            <br/>
+                            <small> FRONT-END</small>
+                          </h3>
+                      </div>
+
+                      <div class="col-md-4 personajes">
+                          <img src="img/assets/personajes/fabian.jpg" class="center-block img-quadrata">
+                          <h3 class="text-center">
+                            FABIAN BRIONES
+                            <br/>
+                            <small> ADMINISTRACIÓN</small>
+                          </h3>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--fin intro home-->
+
+    <%- include('../partials/cta', {message: '¿QUÉ ESPERAS PARA CREAR TU CUENTA?'}) %>
+
+    <!--BOX-3-->
+    <div class="container-fluid fuera fuera-suscripciones">
+        <div class="container dentro">
+            <div class="col-md-6">
+                <div class="panel panel-suscripciones">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 container-icon">
+                                <img src="img/assets/ok_icon.svg" class="img-responsive">
+                            </div>
+
+                            <div class="col-md-10">
+                                <h4>SUSCRIPCIONES</h4>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada sed risus varius fermentum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel panel-api">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 container-icon">
+                                <img src="img/assets/code_icon.svg" class="img-responsive">
+                            </div>
+
+                            <div class="col-md-10">
+                                <h4>DOCUMENTACIÓN API</h4>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada sed risus varius fermentum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FIN BOX-3-->
+
+    <% include ../partials/footer %>
+    <% include ../partials/vendor %>
+
+</body>
+</html>

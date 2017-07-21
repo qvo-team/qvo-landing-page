@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+
+// Colors
+
+$gray: #e9ebed;
+$light-gray: #f9f9f9;
+$light: #fff;
+$blue: #3091c8;
+$skyblue: #28c5c5;
+$dark: #373947;
+$green: #92c841;
+$red: #eb5354;
+$yellow: #ffbb00 !default;
+
+$default-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 7px 14px 1px rgba(50,50,93,.1);
+
+@mixin default-gradient() {
+  background: -moz-linear-gradient(top, $blue 1%, $skyblue 100%);
+  background: -webkit-linear-gradient(top, $blue 1%, $skyblue 100%);
+  background: linear-gradient(to bottom, $blue 1%, $skyblue 100%);
+}
+
+@import 'overrides';
+@import "bootstrap";
+
+@import "utils";
+
+@import "shared";
+@import "navbar";
+@import "footer";
+@import "codigo";
+
+@import "pages/desarrolladores";
+@import "pages/contacto";

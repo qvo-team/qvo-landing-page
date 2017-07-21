@@ -1,0 +1,23 @@
+{
+  "name": "qvo-landing-page",
+  "version": "1.0.0",
+  "description": "QVO Landing Page",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "qvo",
+    "landing",
+    "page",
+    "express"
+  ],
+  "author": "QVO",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

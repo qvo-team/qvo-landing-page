@@ -1,0 +1,72 @@
+/* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+.box-suscripciones {
+    background-color: #373946;
+
+}
+
+.texto {
+    padding: 8% 2% 10% 2%;
+    text-align: center;
+}
+
+.box-call-desarrolladores {
+    margin-top:60%;
+}
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+.texto {
+    padding: 8% 2% 10% 2%;
+    text-align:left;
+}
+.fuera-suscripciones {
+        padding: 5% 2% 5% 2%;
+}
+.box-1 {
+    padding: 7% 2% 7% 2%!important;
+}
+
+.box-call-desarrolladores {
+    margin-top:25%;
+}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+.rocket-box {
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    width: 800px;
+    height: auto;
+    transform: translate3d(-50%, 0, 0);
+}
+
+@media only screen and (max-width: 768px) {
+    .rocket-container {
+        height: 300px;
+    }
+
+    .rocket-box {
+        width: 400px;
+    }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <% include ../partials/head %>
+
+    <link href="css/pagos.css" rel="stylesheet">
+
+    <title>QVO - HAZLO SIMPLE</title>
+</head>
+<body>
+    <% include ../partials/nav %>
+
+    <!--intro home-->
+    <div class="container-fluid fuera fuera-suscripciones">
+        <div class="container dentro ">
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 texto">
+
+                <h1>Pagos inmediatos con tarjeta, integración con webpay plus y one click</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus tellus at velit sollicitudin volutpat. Donec consequat tincidunt condimentum. In ut tempor nisi.</p>
+                <article class="caja-botones">
+                    <button class="btn btn-crear">CREAR CUENTA</button>
+                    <button class="btn btn-desarrolladores">DESARROLLADORES</button>
+                </article>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animacion">
+                <img src="img/assets/pagos.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--fin intro home-->
+
+    <!--box-1-->
+    <div class="container-fluid fuera box-1 box-suscripciones">
+
+        <div class="container dentro">
+            <div  class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animacion animacion-whatsapp scrollflow -slide-top -opacity">
+                <img src="img/assets/pagos_dibujo.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 texto scrollflow -slide-top -opacity">
+                <h2>PAGOS INMEDIATOS</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut quam sem. Phasellus interdum enim non magna ornare, eget fermentum ex molestie.</p>
+
+                <article class="caja-botones">
+                    <button class="btn btn-crear">CREA TU CUENTA</button>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!--fin box-1-->
+
+    <%- include('../partials/cta', {message: '¿QUÉ ESPERAS PARA CREAR TU CUENTA?'}) %>
+
+    <!--BOX-3-->
+    <div class="container-fluid fuera fuera-suscripciones">
+        <div class="container dentro">
+            <div class="col-md-6">
+                <div class="panel panel-suscripciones">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 container-icon">
+                                <img src="img/assets/ok_icon.svg" class="img-responsive">
+                            </div>
+                            <div class="col-md-10">
+                                <h4>SUSCRIPCIONES</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada sed risus varius fermentum.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-api">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 container-icon">
+                                <img src="img/assets/code_icon.svg" class="img-responsive">
+                            </div>
+
+                            <div class="col-md-10">
+                                <h4>DOCUMENTACIÓN API</h4>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada sed risus varius fermentum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FIN BOX-3-->
+
+    <% include ../partials/footer %>
+    <% include ../partials/vendor %>
+</body>
+</html>

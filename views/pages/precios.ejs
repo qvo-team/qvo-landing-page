@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <% include ../partials/head %>
+
+    <link href="css/precios.css" rel="stylesheet">
+
+    <title>QVO - PRECIOS</title>
+</head>
+
+<body>
+    <% include ../partials/nav %>
+
+    <!--intro home-->
+    <div class="container-fluid fuera fuera-suscripciones">
+        <div class="container dentro ">
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 precio_box">
+                <aside class="container_precios">
+                    <h2>PAGOS, COBROS Y SUSCRIPCIONES</h2>
+
+                    <p>2,95% + <span>0,01UF</span></p>
+
+                    <article>
+                        <p>por transacción exitosa</p>
+                    </article>
+
+                    <ul>
+                        <li>Pago por uso</li>
+                        <li>Comisiones transparente</li>
+                        <li>Información clara y a tiempo real</li>
+                        <li>Pagos con tarjeta de débito y crédito</li>
+                        <li>Sistema de suscripciones</li>
+                        <li>Sistema de cobros</li>
+                    </ul>
+                </aside>
+
+                <button type="button" class="btn btn-primary boton_base">CREA TU CUENTA</button>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 precio_box">
+                <aside class="container_precios">
+                    <h2>EMPRESA</h2>
+
+                    <p>Contáctanos para un trato especial</p>
+
+                    <article>
+
+                    </article>
+
+                    <ul>
+                        <li>Descuento por volumen</li>
+                        <li>Soporte personalizado</li>
+                        <li>Asistencia en integración</li>
+                    </ul>
+                </aside>
+
+                <button type="button" class="btn btn-primary boton_base">CREA TU CUENTA</button>
+            </div>
+        </div>
+    </div>
+    <!--fin intro home-->
+
+    <%- include('../partials/cta', {message: '¿QUÉ ESPERAS PARA CREAR TU CUENTA?'}) %>
+
+    <!--BOX-3-->
+    <div class="container-fluid fuera fuera-suscripciones">
+        <div class="container dentro">
+            <div class="col-md-6 scrollflow -pop -opacity">
+                <div class="panel panel-suscripciones">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 container-icon">
+                                <img src="img/assets/ok_icon.svg" class="img-responsive">
+                            </div>
+
+                            <div class="col-md-10">
+                                <h4>SUSCRIPCIONES</h4>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada sed risus varius fermentum.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 scrollflow -pop -opacity">
+                <div class="panel panel-api">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 container-icon">
+                                <img src="img/assets/code_icon.svg" class="img-responsive">
+                            </div>
+                            <div class="col-md-10">
+                                <h4>DOCUMENTACIÓN API</h4>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada sed risus varius fermentum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--FIN BOX-3-->
+
+    <% include ../partials/footer %>
+    <% include ../partials/vendor %>
+</body>
+
+</html>

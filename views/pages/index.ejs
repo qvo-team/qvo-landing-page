@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <% include ../partials/head %>
+    <title>QVO - HAZLO SIMPLE</title>
+</head>
+
+<body>
+    <% include ../partials/nav %>
+
+    <!--intro home-->
+    <div class="container-fluid fuera">
+        <div class="container dentro ">
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 texto">
+
+                <h1 class="my-0">Simplificando negocios online</h1>
+
+                <p class="mt-2 mb-0">QVO es la mejor plataforma para empezar un negocios online, ya sea creando una tienda o empezar a cobrar con tarjetas online, agilizamos y optimizamos los procesos de creación y operación de negocios online.</p>
+
+                <article class="caja-botones mt-2">
+                    <button class="btn btn-crear">CREAR CUENTA</button>
+                    <button class="btn btn-desarrolladores">DESARROLLADORES</button>
+                </article>
+            </div>
+
+            <div id="home_1" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+            </div>
+        </div>
+    </div>
+    <!--fin intro home-->
+
+    <!--divider-->
+    <div class="container-fluid text-center container-divider">
+        <img src="img/assets/fig_1.png" alt="">
+    </div>
+    <!--fin divider-->
+
+    <!--box-1-->
+    <div class="container-fluid fuera box-1">
+
+        <div class="container dentro">
+
+            <div id="robot" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animaciony "></div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 texto">
+                <h2>Crea el modelo que necesites para que tu negocio sea exitoso.</h2>
+
+                <p>En QVO proveemos tecnologías avanzadas para que crees el mejor producto para tus usuarios, con nuestra API contarás con la flexibilidad que necesitas para crear los modelos online más innovadores, si eres te gusta la rapidez y eficiencia
+                    somos lo que estás buscando.</p>
+
+                <article class="caja-botones">
+                    <button class="btn btn-desarrolladores">DESARROLLADORES</button>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!--fin box-1-->
+
+    <!--divider-->
+    <div class="container-fluid text-center container-divider">
+        <img src="img/assets/fig_1.png" alt="">
+    </div>
+    <!--fin divider-->
+
+    <!--para desarrolladores-->
+    <div class="container-fluid box-2">
+        <div class="container text-center">
+            <div class="padding-titulos">
+                <h2>PENSADO PARA DESARROLLADORES</h2>
+
+                <p class="mt-2">Gracias a nuestra API podrás empezar a cobrar de manera rápida, simple y segura. Buscamos constantemente nuevas abstracciones para que la programación no sea un problema, con nosotros podrás cobrar a tarjetas de débito, crédito, con
+                    un solo click o hacer suscripciones, eliminamos complejidades y burocracias innecesarias para que puedas empezar a cobrar en horas.</p>
+            </div>
+
+        </div>
+
+        <div class="container text-center code">
+            <!--code-->
+            <div class="container container_code">
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active tit_tab"><a href="#suscripciones" aria-controls="suscripciones" role="tab" data-toggle="tab">SUSCRIPCIONES</a>
+                    </li>
+                    <li role="presentation" class="tit_tab"><a href="#one_click" aria-controls="one_click" role="tab" data-toggle="tab">ONE CLICK</a>
+                    </li>
+                    <li role="presentation" class="tit_tab"><a href="#cobros" aria-controls="cobros" role="tab" data-toggle="tab">COBROS</a>
+                    </li>
+
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+
+                    <div role="tabpanel" class="tab-pane fade in active" id="suscripciones">
+                        <pre class="codigo">
+<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
+    name = name || <span class="azul">"stranger";</span>
+    <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
+}
+
+window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
+            </pre>
+                    </div>
+
+
+                    <div role="tabpanel" class="tab-pane fade" id="one_click">
+
+                        <pre class="codigo">
+<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
+    name = name || <span class="azul">"stranger";</span>
+    <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
+}
+
+window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
+            </pre>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="cobros">
+
+                        <pre class="codigo">
+<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
+    name = name || <span class="azul">"stranger";</span>
+    <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
+}
+
+window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
+            </pre>
+                    </div>
+                </div>
+
+            </div>
+            <!--fin code-->
+        </div>
+    </div>
+    <!--fin para desarrolladores-->
+
+    <%- include('../partials/cta', {message: '¿QUE ESPERAS PARA EMPEZAR A COBRAR?'}) %>
+
+    <!--BOX-3-->
+    <div class="container-fluid fuera">
+        <div class="container dentro">
+            <div class="col-md-6">
+                <div class="panel panel-suscripciones">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 container-icon">
+                                <img src="img/assets/ok_icon.svg" class="img-responsive">
+                            </div>
+                            <div class="col-md-10">
+                                <h4>SUSCRIPCIONES</h4>
+                                <p>Asegura tus pagos mes a mes, QVO realiza los cálculos y los cobros por ti. No gastes energías en cobrar a tus clientes y suscribelos a tus servicios.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel panel-api">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 container-icon">
+                                <img src="img/assets/code_icon.svg" class="img-responsive">
+                            </div>
+                            <div class="col-md-10">
+                                <h4>DOCUMENTACIÓN API</h4>
+                                <p>Comienza a probar y usar los servicios de QVO ahora con nuestra API. Tenemos toda la documentación disponible para ti</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--FIN BOX-3-->
+
+    <% include ../partials/footer %>
+
+    <% include ../partials/vendor %>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <% include ../partials/head %>
+
+    <link href="css/suscripciones.css" rel="stylesheet">
+
+    <title>QVO - HAZLO SIMPLE</title>
+</head>
+<body>
+    <% include ../partials/nav %>
+
+    <!--intro home-->
+    <div class="container-fluid fuera fuera-suscripciones">
+        <div class="container d-flex flex-row justify-content-between align-items-center">
+            <div>
+                <h1>Los ÚNICOS con sistema de suscripción en CHILE</h1>
+
+                <p>Ahorrate el tiempo de ir cobrando a tus clientes cada mes. Con el SISTEMA DE SUSCRIPCIONES QVO los cobros los hacemos nosotros :)</p>
+
+                <article class="caja-botones">
+                    <button class="btn btn-desarrolladores">DOCUMENTACIÓN API</button>
+                </article>
+            </div>
+
+
+            <img src="img/assets/suscripciones.png" alt="">
+        </div>
+    </div>
+    <!--fin intro home-->
+
+
+    <!--box-1-->
+    <div class="container-fluid fuera box-1 box-suscripciones">
+
+        <div class="container dentro">
+            <div  class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animacion animacion-whatsapp scrollflow -slide-top -opacity">
+                <img src="img/assets/whatsapp.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 texto scrollflow -slide-top -opacity">
+                <h2>EVITA QUE TE DEJEN EN VISTO</h2>
+
+                <p>Con el sistema de SUSCRIPCIONES QVO puedes hacer cobros automáticos a tus clientes</p>
+
+                <article class="caja-botones">
+                    <button class="btn btn-crear">CREA TU CUENTA</button>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!--fin box-1-->
+
+    <%- include('../partials/cta', {message: '¿QUÉ ESPERAS PARA CREAR TU CUENTA?'}) %>
+
+    <!--BOX-3-->
+    <div class="container-fluid fuera fuera-suscripciones">
+        <div class="container dentro">
+            <div class="col-md-6">
+                <div class="panel panel-suscripciones">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 container-icon">
+                                <img src="img/assets/ok_icon.svg" class="img-responsive">
+                            </div>
+
+                            <div class="col-md-10">
+                                <h4>SUSCRIPCIONES</h4>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada sed risus varius fermentum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel panel-api">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 container-icon">
+                                <img src="img/assets/code_icon.svg" class="img-responsive">
+                            </div>
+
+                            <div class="col-md-10">
+                                <h4>DOCUMENTACIÓN API</h4>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada sed risus varius fermentum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--FIN BOX-3-->
+
+    <% include ../partials/footer %>
+    <% include ../partials/vendor %>
+
+</body>
+</html>

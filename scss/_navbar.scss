@@ -1,0 +1,45 @@
+/*navbar*/
+
+.navbar-default {
+  background-color: #fff!important;
+  border: none;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0;
+}
+
+.navbar-fixed-top {
+  position: relative;
+}
+
+.navbar-brand {
+  padding: 11px 15px;
+
+  img {
+    width: 80px;
+  }
+}
+
+.navbar-default .navbar-nav>li>a {
+  // font-weight: 300;
+  color: #595959;
+  font-size: 1em;
+}
+
+.iniciar_sesion {
+  background-color: $brand-primary;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background-color: darken($brand-primary, 10%);
+  }
+
+  a {
+    color: #fff !important;
+  }
+}
