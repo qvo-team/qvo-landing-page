@@ -30,6 +30,6 @@ Ir a `https://localhost:8080` y voila!
 El watcher de los estilos:
 
 ```bash
-gulp watch
+gulp
 ```
 
