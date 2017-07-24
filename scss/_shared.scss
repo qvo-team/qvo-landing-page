@@ -10,7 +10,7 @@ body {
   }
 
   p {
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .btn {
@@ -20,6 +20,28 @@ body {
     -moz-box-shadow: 0px 2px 11px rgba(50, 50, 50, 0.45);
     box-shadow: $default-shadow;
     padding: 1.2rem 4rem;
+    text-transform: uppercase;
+  }
+
+  .btn-primary {
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+  }
+
+  .btn-dark {
+    background-color: $dark;
+    border-color: $dark;
+  }
+
+  .btn-hover {
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-2px);
+      -webkit-box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
+      -moz-box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
+      box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
+    }
   }
 
   /*intro_home*/
@@ -58,32 +80,6 @@ body {
     }
   }
 
-  .btn-crear {
-    background-color: $brand-primary;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-  }
-  .btn-desarrolladores {
-    background-color: $dark;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-  }
-  .btn-crear:hover {
-    transform: translateY(-1px);
-    -webkit-box-shadow: 0px 4px 11px rgba(50, 50, 50, 0.45);
-    -moz-box-shadow: 0px 4px 11px rgba(50, 50, 50, 0.45);
-    box-shadow: 0px 4px 11px rgba(50, 50, 50, 0.45);
-  }
-  .btn-desarrolladores:hover {
-    transform: translateY(-1px);
-    -webkit-box-shadow: 0px 4px 11px rgba(50, 50, 50, 0.45);
-    -moz-box-shadow: 0px 4px 11px rgba(50, 50, 50, 0.45);
-    box-shadow: 0px 4px 11px rgba(50, 50, 50, 0.45);
-  }
   .container-divider {
     padding: 0!important;
     position: absolute;
@@ -162,15 +158,23 @@ body {
     box-shadow: $default-shadow;
     border-radius: $border-radius-base;
     min-height: 200px;
+    transition: all ease .3s;
 
     &.panel-info {
       background-color: $brand-info;
+      border-color: $brand-info;
       color: $light;
     }
 
     &.panel-dark {
       background-color: $dark;
+      border-color: $dark;
       color: #fff;
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
     }
   }
 

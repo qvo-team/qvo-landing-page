@@ -20,8 +20,8 @@
                 <p class="mt-2 mb-0">QVO es la mejor plataforma para empezar un negocios online, ya sea creando una tienda o empezar a cobrar con tarjetas online, agilizamos y optimizamos los procesos de creación y operación de negocios online.</p>
 
                 <article class="caja-botones mt-2">
-                    <button class="btn btn-crear">CREAR CUENTA</button>
-                    <button class="btn btn-desarrolladores">DESARROLLADORES</button>
+                    <button class="btn btn-primary btn-hover">CREAR CUENTA</button>
+                    <button class="btn btn-dark btn-hover">DESARROLLADORES</button>
                 </article>
             </div>
 
@@ -52,7 +52,7 @@
                     somos lo que estás buscando.</p>
 
                 <article class="caja-botones mt-2">
-                    <button class="btn btn-desarrolladores">DESARROLLADORES</button>
+                    <button class="btn btn-dark btn-hover">DESARROLLADORES</button>
                 </article>
             </div>
         </div>
@@ -66,81 +66,13 @@
     <!--fin divider-->
 
     <!--para desarrolladores-->
-    <div class="container-fluid box-2">
-        <div class="container text-center">
-            <div class="padding-titulos">
-                <h2>PENSADO PARA DESARROLLADORES</h2>
-
-                <p class="mt-2">Gracias a nuestra API podrás empezar a cobrar de manera rápida, simple y segura. Buscamos constantemente nuevas abstracciones para que la programación no sea un problema, con nosotros podrás cobrar a tarjetas de débito, crédito, con
-                    un solo click o hacer suscripciones, eliminamos complejidades y burocracias innecesarias para que puedas empezar a cobrar en horas.</p>
-            </div>
-
-        </div>
-
-        <div class="container text-center code">
-            <!--code-->
-            <div class="container container_code">
-
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active tit_tab"><a href="#suscripciones" aria-controls="suscripciones" role="tab" data-toggle="tab">SUSCRIPCIONES</a>
-                    </li>
-                    <li role="presentation" class="tit_tab"><a href="#one_click" aria-controls="one_click" role="tab" data-toggle="tab">ONE CLICK</a>
-                    </li>
-                    <li role="presentation" class="tit_tab"><a href="#cobros" aria-controls="cobros" role="tab" data-toggle="tab">COBROS</a>
-                    </li>
-
-                </ul>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-
-                    <div role="tabpanel" class="tab-pane fade in active" id="suscripciones">
-                        <pre class="codigo">
-<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
-    name = name || <span class="azul">"stranger";</span>
-    <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
-}
-
-window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
-            </pre>
-                    </div>
-
-
-                    <div role="tabpanel" class="tab-pane fade" id="one_click">
-
-                        <pre class="codigo">
-<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
-    name = name || <span class="azul">"stranger";</span>
-    <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
-}
-
-window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
-            </pre>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="cobros">
-
-                        <pre class="codigo">
-<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
-    name = name || <span class="azul">"stranger";</span>
-    <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
-}
-
-window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
-            </pre>
-                    </div>
-                </div>
-
-            </div>
-            <!--fin code-->
-        </div>
-    </div>
+    <% include ../partials/code_tabs %>
     <!--fin para desarrolladores-->
 
     <%- include('../partials/cta', {message: '¿QUE ESPERAS PARA EMPEZAR A COBRAR?'}) %>
 
     <!--BOX-3-->
-    <div class="p-4">
+    <div class="py-2 px-0 p-sm-4">
         <div class="container">
             <div class="col-md-6">
                 <div class="panel panel-info">
