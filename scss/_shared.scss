@@ -151,6 +151,9 @@ body {
   aside {
     width: 70%;
   }
+
+  // Panel
+
   .panel {
     background-color: #ccc;
     border-radius: 0;
@@ -158,33 +161,29 @@ body {
     margin: 0 auto;
     box-shadow: $default-shadow;
     border-radius: $border-radius-base;
-    min-height: 180px;
-  }
-  .panel-body {
-    padding: 22px;
-    text-align: center;
+    min-height: 200px;
 
+    &.panel-info {
+      background-color: $brand-info;
+      color: $light;
+    }
+
+    &.panel-dark {
+      background-color: $dark;
+      color: #fff;
+    }
   }
+
   .container-icon {
     padding-top: 7%;
+
+    img {
+      padding-top: 0%;
+      width: 50px;
+      margin: 0 auto;
+    }
   }
-  .container-icon>img {
-    padding-top: 0%;
-    width: 50px;
-    margin: 0 auto;
-  }
-  .panel-suscripciones {
-    background-color: #35C5C4;
-    color: #fff;
-    margin-bottom: 10%;
-    margin-top: 10%;
-  }
-  .panel-api {
-    background-color: #373946;
-    color: #fff;
-    margin-bottom: 10%;
-    margin-top: 10%;
-  }
+
   .container_code {
     width: 90%;
     margin-top: 5%;
