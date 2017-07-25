@@ -10,57 +10,55 @@
     <% include ../partials/nav %>
 
     <!--intro home-->
-    <div class="container-fluid fuera">
-        <div class="container dentro ">
-
+    <div class="container py-4">
+        <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 texto">
-
                 <h1 class="my-0">Simplificando negocios online</h1>
 
-                <p class="mt-2 mb-0">QVO es la mejor plataforma para empezar un negocios online, ya sea creando una tienda o empezar a cobrar con tarjetas online, agilizamos y optimizamos los procesos de creación y operación de negocios online.</p>
+                <p class="lead mt-2 mb-0">QVO es la mejor plataforma para empezar un negocios online, ya sea creando una tienda o empezar a cobrar con tarjetas online, agilizamos y optimizamos los procesos de creación y operación de negocios online.</p>
 
-                <article class="caja-botones mt-2">
+                <article class="caja-botones mt-3">
                     <a href="" class="btn btn-primary btn-hover">CREAR CUENTA</a>
                     <a href="/desarrolladores" class="btn btn-dark btn-hover">DESARROLLADORES</a>
                 </article>
             </div>
 
-            <div id="home_1" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div id="home_1" class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
 
-            </div>
         </div>
     </div>
     <!--fin intro home-->
 
     <!--divider-->
-    <div class="container-fluid text-center container-divider">
+    <div class="container-divider-top">
         <img src="img/assets/fig_1.png" alt="">
     </div>
     <!--fin divider-->
 
     <!--box-1-->
-    <div class="container-fluid fuera box-1">
+    <div class="container-fluid bg-primary divider-top divider-bottom">
 
-        <div class="container dentro">
+        <div class="container py-4">
+            <div class="row">
+                <div id="robot" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animaciony "></div>
 
-            <div id="robot" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animaciony "></div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 texto">
+                    <h2 class="mt-0">Crea el modelo que necesites para que tu negocio sea exitoso.</h2>
 
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 texto">
-                <h2>Crea el modelo que necesites para que tu negocio sea exitoso.</h2>
+                    <p class="lead mt-2">En QVO proveemos tecnologías avanzadas para que crees el mejor producto para tus usuarios, con nuestra API contarás con la flexibilidad que necesitas para crear los modelos online más innovadores, si eres te gusta la rapidez y eficiencia
+                        somos lo que estás buscando.</p>
 
-                <p class="mt-2">En QVO proveemos tecnologías avanzadas para que crees el mejor producto para tus usuarios, con nuestra API contarás con la flexibilidad que necesitas para crear los modelos online más innovadores, si eres te gusta la rapidez y eficiencia
-                    somos lo que estás buscando.</p>
-
-                <article class="caja-botones mt-2">
-                    <button class="btn btn-dark btn-hover">DESARROLLADORES</button>
-                </article>
+                    <article class="caja-botones mt-3">
+                        <button class="btn btn-dark btn-hover">DESARROLLADORES</button>
+                    </article>
+                </div>
             </div>
         </div>
     </div>
     <!--fin box-1-->
 
     <!--divider-->
-    <div class="container-fluid text-center container-divider">
+    <div class="container-divider-bottom">
         <img src="img/assets/fig_1.png" alt="">
     </div>
     <!--fin divider-->
@@ -68,8 +66,6 @@
     <!--para desarrolladores-->
     <% include ../partials/code_tabs %>
     <!--fin para desarrolladores-->
-
-    <%- include('../partials/cta', {message: '¿QUE ESPERAS PARA EMPEZAR A COBRAR?'}) %>
 
     <!--BOX-3-->
     <div class="py-2 px-0 p-sm-4">
@@ -111,6 +107,9 @@
         </div>
     </div>
     <!--FIN BOX-3-->
+
+    <%- include('../partials/cta', {message: '¿QUE ESPERAS PARA EMPEZAR A COBRAR?'}) %>
+
 
     <% include ../partials/footer %>
 
