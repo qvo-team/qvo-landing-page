@@ -155,3 +155,14 @@ $spacers: (
 .justify-content-between {
   justify-content: space-between;
 }
+
+.row.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .row.vertical-align {
+    display: block; /* Turn off the flexible box layout */
+  }
+}
