@@ -2,50 +2,6 @@
   -webkit-font-smoothing: antialiased !important;
 }
 
-.browser {
-  border-radius: 6px;
-  background: linear-gradient(to bottom, rgba(233,232,233,1) 0%,rgba(212,212,213,1) 100%);
-  background-size: 60px;
-  box-shadow: 0 10px 20px rgba(40,39,66,.06);
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-  z-index: 2;
-  padding: 30px 0 0 0;
-  top: 0;
-  left: 0;
-
-  .mask {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: white;
-  }
-
-  &:before {
-    content: "\25CF \25CF \25CF";
-    letter-spacing: 2px;
-    border-radius: 10px;
-    color: rgba(0,0,0,.05);
-    background: -webkit-linear-gradient(left,$brand-danger,$brand-danger 35%,$brand-danger 0,$brand-warning 0,$brand-warning 66%,$brand-success 0,$brand-success);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 26px;
-    line-height: 30px;
-    height: 30px;
-    padding-left: 8px;
-    position: absolute;
-    top: -2px;
-  }
-}
-
-@media screen and (max-width: $screen-sm) {
-  .browser {
-    width: 100%;
-    height: calc(100vw * .65);
-  }
-}
-
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
