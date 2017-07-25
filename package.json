@@ -4,7 +4,10 @@
   "description": "QVO Landing Page",
   "main": "server/server.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "postinstall": "gulp build",
+    "start": "node server/server.js",
+    "watch": "gulp"
   },
   "keywords": [
     "qvo",
