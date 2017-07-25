@@ -7,43 +7,41 @@
   display: inline-block;
   width: 100%;
   max-width: 500px;
+  transition: all .3s ease-in-out;
+
+  ul {
+    padding:0;
+    margin: 0;
+
+    li {
+      color: $text-muted;
+      list-style: none;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
+  }
 }
 
 .container-precios {
   margin:0 auto;
-  text-align: center;
-}
 
-.container-precios h2 {
-  color: $brand-primary;
-}
-
-.container-precios p {
-  color: $text-muted;
-  font-size: 24px;
-
-}
-.container-precios p span {
-  font-size:14px;
-}
-.container-precios article p{
-  font-size:16px;
-  color: $text-muted;
-}
-.precio-box ul {
-  padding:0;
-}
-.precio-box ul li {
-
-  color: $text-muted;
-  list-style: none;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300; }
-
-  .boton_base {
-    width: 100%;
-    height: 46px;
-    border-radius: 0;
+  h4 {
+    color: $brand-primary;
   }
+
+   p {
+    color: $text-muted;
+    font-size: 40px;
+  }
+}
+
+.boton_base {
+  width: 100%;
+  height: 46px;
+  border-radius: 0;
+}
 
 
