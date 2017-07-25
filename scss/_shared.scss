@@ -46,9 +46,9 @@
     &:hover {
       filter: brightness(110%);
       transform: translateY(-1px);
-      -webkit-box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
-      -moz-box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
-      box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
+      -webkit-box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+      -moz-box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+      box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
     }
 
     &:active {
@@ -147,8 +147,11 @@
 
   .bg-gradient {
     color: #fff!important;
-    background: #3794c9;
+    background: $blue;
     @include default-gradient();
+    // background: url('../img/assets/bg_laptop.jpg');
+    // background-size: cover;
+    // background-position: 50% 50%;
   }
 
   .bg-dark {
