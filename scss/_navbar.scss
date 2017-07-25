@@ -66,38 +66,43 @@
   border-radius: $border-radius-base;
   background-color: $light-gray;
   box-shadow: $default-shadow;
-}
-/* TRIANGLE */
 
-.toolTipContainer::before {
-  width: 0;
-  height: 100%;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-bottom: 15px solid $light-gray;
-  position: absolute;
-  top: -100%;
-  content: '';
+
+/* TRIANGLE */
+  &:before {
+    width: 0;
+    height: 100%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid $light-gray;
+    position: absolute;
+    top: -100%;
+    content: '';
+  }
 }
+
+
 /* TOOL TIP TEXT */
 
 .toolTipText {
-  color: #000;
+  color: $dark;
   font-size: 12px;
+
+  h4 {
+    text-decoration: none;
+    color: $brand-primary;
+  }
+
+  p {
+    text-decoration: none;
+    color: $dark;
+    font-size: 14px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
 }
-.toolTipText h4 {
-  text-decoration: none;
-  color: #3692C6;
-}
-.toolTipText p {
-  text-decoration: none;
-  color: #373946;
-  font-size: 14px;
-}
-.toolTipText a:hover {
-  text-decoration: none;
-}
-/* BEFORE ANIMATION */
 
 .toolTipTrigger .toolTipContainer {
   display: block;
@@ -115,6 +120,7 @@
   -o-transition: all .25s ease-out;
   transition: all .25s ease-out;
 }
+
 /* HOVER ANIMATION */
 
 .toolTipTrigger:hover .toolTipContainer {
