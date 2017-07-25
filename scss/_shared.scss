@@ -21,28 +21,39 @@
     box-shadow: $default-shadow;
     padding: 1.2rem 2rem;
     text-transform: uppercase;
+    border: none;
   }
 
   .btn-primary {
     &:active:hover, &:active:focus, &:hover {
       background-color: $brand-primary;
-      border-color: $brand-primary;
+    }
+  }
+
+  .btn-info {
+    &:active:hover, &:active:focus, &:hover {
+      background-color: $brand-info;
     }
   }
 
   .btn-dark {
     background-color: $dark;
-    border-color: $dark;
   }
 
   .btn-hover {
-    transition: all .3s ease-in-out;
+    transition: all .2s ease;
 
     &:hover {
-      transform: translateY(-2px);
+      filter: brightness(110%);
+      transform: translateY(-1px);
       -webkit-box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
       -moz-box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
       box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 12px 20px 1px rgba(50,50,93,.1);
+    }
+
+    &:active {
+      transform: translateY(1px);
+      filter: brightness(95%);
     }
   }
 
