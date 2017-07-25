@@ -32,15 +32,13 @@
     color: $brand-primary;
   }
 
-   p {
-    color: $text-muted;
+   p.lead {
     font-size: 40px;
   }
 }
 
-.boton_base {
+.btn-bottom {
   width: 100%;
-  height: 46px;
   border-radius: 0;
 }
 
