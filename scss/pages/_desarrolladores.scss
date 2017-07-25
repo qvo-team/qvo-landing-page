@@ -7,3 +7,25 @@
   height: 300px;
   width: auto;
 }
+
+$rocket-container-size: 200px;
+
+.rocket-container {
+  position: relative;
+  height: $rocket-container-size;
+}
+
+
+.rocket-box {
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: - $rocket-container-size;
+  width: auto;
+  height: $rocket-container-size * 2;
+  transform: translate3d(-50%, 0, 0);
+}
+
+@media only screen and (max-width: 768px) {
+  $rocket-container-size: 150px;
+}

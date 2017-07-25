@@ -2,6 +2,8 @@
   -webkit-font-smoothing: antialiased !important;
 }
 
+
+
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
@@ -14,7 +16,7 @@
   }
 
   .btn {
-    color: #fff!important;
+    color: #fff !important;
     font-size: 1em;
     -webkit-box-shadow: $default-shadow;
     -moz-box-shadow: $default-shadow;
@@ -57,24 +59,14 @@
     }
   }
 
+  .section-big {
+    padding: 200px 0;
+  }
+
   /*intro_home*/
 
   .top-nav {
     padding-top: 11%!important;
-  }
-
-  .fuera {
-    padding: 2% 2% 12% 2%;
-  }
-
-  .dentro {
-    padding: 2%;
-    max-width: 1200px;
-  }
-
-  .texto {
-    padding: 8% 2% 10% 2%;
-    text-align: center;
   }
 
   .animacion {
@@ -127,9 +119,6 @@
     background-color: $brand-primary;
   }
 
-  .box-1>.dentro>.texto {
-    color: #fff;
-  }
   .code>img {
     width: 100%;
     max-width: 600px;
@@ -157,11 +146,6 @@
   .bg-dark {
     background: $dark;
     color: $light;
-  }
-
-  .rocket-container {
-    position: relative;
-    height: 400px;
   }
 
   .card {
@@ -254,9 +238,6 @@
   }
   .box-1 {
     padding: 12% 2% 12% 2%!important;
-  }
-  .fuera {
-    padding: 5% 2% 10% 2%;
   }
 }
 

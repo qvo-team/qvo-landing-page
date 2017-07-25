@@ -1,38 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
     <% include ../partials/head %>
 
-    <link href="css/contacto.css" rel="stylesheet">
-
-    <title>QVO - CONTACTO</title>
+    <title>QVO - Contacto</title>
 </head>
 <body>
     <% include ../partials/nav %>
 
     <!--intro home-->
-    <div class="container-fluid fuera fuera-suscripciones">
-        <div class="container dentro">
-            <div class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center texto_equipo">
-                            <h2>CONTACTA CON NUESTRO EQUIPO DE VENTAS</h2>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="mt-0">CONTACTA CON NUESTRO EQUIPO DE VENTAS</h2>
 
-                            <p>Tenemos mucho que conversar sobre como ayudarte</p>
-                        </div>
-                    </div>
-                    <div class="row container_form">
-                        <form id="form" class="topBefore">
-                            <input id="name" type="text" placeholder="NOMBRE">
-                            <input id="email" type="text" placeholder="E-MAIL">
-                            <textarea id="message" type="text" placeholder="MENSAJE"></textarea>
-                            <input id="submit" type="submit" value="ENVIAR">
-                        </form>
-                    </div>
-                </div>
+                <p class="lead mt-2">Tenemos mucho que conversar sobre como ayudarte</p>
             </div>
+        </div>
+        <div class="row container_form mt-2">
+            <form id="form" class="topBefore">
+                <input id="name" type="text" placeholder="NOMBRE">
+                <input id="email" type="text" placeholder="E-MAIL">
+                <textarea id="message" type="text" placeholder="MENSAJE"></textarea>
+                <input id="submit" type="submit" value="ENVIAR">
+            </form>
         </div>
     </div>
     <!--fin intro home-->

@@ -1,0 +1,60 @@
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .texto_equipo {
+        margin-bottom:10%;
+        margin-top:30%;
+    }
+    .img-quadrata {
+        border-radius:50%;
+        width:250px;
+        height:250px;
+    }
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .texto_equipo {
+        margin-bottom:2%;
+        margin-top:2%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .img-quadrata {
+        border-radius:50%;
+        width:250px;
+        height:250px;
+    }
+
+    .personajes h3 {
+        font-family: 'Oswald', sans-serif!important;
+        color:#373946;
+    }
+    .personajes h3 small {
+        font-family: 'Lato', sans-serif;
+        color:#595959;
+    }
+    .texto_equipo {
+        margin-bottom:5%;
+        margin-top:1%;
+    }
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+}
+
+
+
