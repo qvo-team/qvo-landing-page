@@ -3,6 +3,7 @@ section.cta {
 
   .inner {
     max-width: 500px;
+    display: inline-block;
   }
 
   @media screen and (max-width: $screen-sm){
