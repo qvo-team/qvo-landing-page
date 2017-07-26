@@ -24,3 +24,25 @@ pre {
 .azul {
   color: #364AE6;
 }
+
+// Code
+.code {
+  width: 90%;
+  display: inline-block;
+
+  .tit_tab {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    width: 100%;
+  }
+}
+
+@media (min-width: $screen-sm) {
+  .code {
+    max-width: 800px;
+
+    .tit_tab {
+      width: 33.3%;
+    }
+  }
+}

@@ -11,17 +11,17 @@
     <% include ../partials/nav %>
 
     <!--intro -->
-    <div class="container py-5">
+    <section class="container py-5">
         <div class="row vertical-align">
             <div class="col-md-6 col-xs-12">
                 <h1 class="my-0">Simplificando negocios online</h1>
 
                 <p class="lead mt-2 mb-0">QVO es la mejor plataforma para empezar un negocios online, ya sea creando una tienda o empezar a cobrar con tarjetas online, agilizamos y optimizamos los procesos de creación y operación de negocios online.</p>
 
-                <article class="btn-box mt-3">
+                <div class="btn-box mt-3">
                     <a href="" class="btn btn-primary btn-hover">CREAR CUENTA</a>
                     <a href="/desarrolladores" class="btn btn-dark btn-hover">DESARROLLADORES</a>
-                </article>
+                </div>
             </div>
 
             <div class="col-md-6 col-xs-12 mt-2 mt-sm-0">
@@ -34,7 +34,7 @@
             </div>
 
         </div>
-    </div>
+    </section>
     <!--fin intro -->
 
     <!--divider-->
@@ -44,8 +44,7 @@
     <!--fin divider-->
 
     <!--box-1-->
-    <div class="container-fluid bg-primary divider-top divider-bottom">
-
+    <section class="bg-primary divider-top divider-bottom">
         <div class="container py-4">
             <div class="row vertical-align">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -64,7 +63,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!--fin box-1-->
 
     <!--divider-->
@@ -74,7 +73,21 @@
     <!--fin divider-->
 
     <!--para desarrolladores-->
-    <% include ../partials/code_tabs %>
+    <section class="developers py-4">
+        <div class="container text-center">
+            <div class="inner">
+                <h2>LOS DESARROLLADORES PRIMERO</h2>
+
+                <p class="lead mt-2">Gracias a nuestra API podrás empezar a cobrar de manera rápida, simple y segura. Buscamos constantemente nuevas abstracciones para que la programación no sea un problema, con nosotros podrás cobrar a tarjetas de débito, crédito, con
+                    un solo click o hacer suscripciones, eliminamos complejidades y burocracias innecesarias para que puedas empezar a cobrar en horas.</p>
+                </div>
+
+                <div class="mt-2">
+                    <% include ../partials/code_tabs %>
+                </div>
+             </div>
+        </div>
+    </section>
     <!--fin para desarrolladores-->
 
     <!--BOX-3-->

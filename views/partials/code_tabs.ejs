@@ -1,66 +1,51 @@
-<div class="py-4">
-    <div class="container text-center">
-        <h2>LOS DESARROLLADORES PRIMERO</h2>
+<div class="code">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active tit_tab"><a href="#suscripciones" aria-controls="suscripciones" role="tab" data-toggle="tab">SUSCRIPCIONES</a>
+        </li>
+        <li role="presentation" class="tit_tab"><a href="#one_click" aria-controls="one_click" role="tab" data-toggle="tab">ONE CLICK</a>
+        </li>
+        <li role="presentation" class="tit_tab"><a href="#cobros" aria-controls="cobros" role="tab" data-toggle="tab">COBROS</a>
+        </li>
 
-        <p class="lead mt-2">Gracias a nuestra API podrás empezar a cobrar de manera rápida, simple y segura. Buscamos constantemente nuevas abstracciones para que la programación no sea un problema, con nosotros podrás cobrar a tarjetas de débito, crédito, con
-            un solo click o hacer suscripciones, eliminamos complejidades y burocracias innecesarias para que puedas empezar a cobrar en horas.</p>
-    </div>
+    </ul>
 
-    <div class="container text-center code">
-        <!--code-->
-        <div class="container container_code">
+    <!-- Tab panes -->
+    <div class="tab-content">
 
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active tit_tab"><a href="#suscripciones" aria-controls="suscripciones" role="tab" data-toggle="tab">SUSCRIPCIONES</a>
-                </li>
-                <li role="presentation" class="tit_tab"><a href="#one_click" aria-controls="one_click" role="tab" data-toggle="tab">ONE CLICK</a>
-                </li>
-                <li role="presentation" class="tit_tab"><a href="#cobros" aria-controls="cobros" role="tab" data-toggle="tab">COBROS</a>
-                </li>
-
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-
-                <div role="tabpanel" class="tab-pane fade in active" id="suscripciones">
-                    <pre class="codigo">
+        <div role="tabpanel" class="tab-pane fade in active" id="suscripciones">
+            <pre class="codigo">
 <span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
-name = name || <span class="azul">"stranger";</span>
-<span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
+  name = name || <span class="azul">"stranger";</span>
+  <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
 }
 
 window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
-        </pre>
-                </div>
-
-
-                <div role="tabpanel" class="tab-pane fade" id="one_click">
-
-                    <pre class="codigo">
-<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
-name = name || <span class="azul">"stranger";</span>
-<span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
-}
-
-window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
-        </pre>
-                </div>
-                <div role="tabpanel" class="tab-pane fade" id="cobros">
-
-                    <pre class="codigo">
-<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
-name = name || <span class="azul">"stranger";</span>
-<span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
-}
-
-window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
-        </pre>
-                </div>
+    </pre>
             </div>
 
+
+            <div role="tabpanel" class="tab-pane fade" id="one_click">
+
+                <pre class="codigo">
+<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
+  name = name || <span class="azul">"stranger";</span>
+  <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
+}
+
+window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
+    </pre>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="cobros">
+
+                <pre class="codigo">
+<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
+  name = name || <span class="azul">"stranger";</span>
+  <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
+}
+
+window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
+            </pre>
         </div>
-        <!--fin code-->
     </div>
 </div>
