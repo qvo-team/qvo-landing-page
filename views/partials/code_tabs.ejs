@@ -14,38 +14,55 @@
     <div class="tab-content">
 
         <div role="tabpanel" class="tab-pane fade in active" id="suscripciones">
-            <pre class="codigo">
-<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
-  name = name || <span class="azul">"stranger";</span>
-  <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
-}
-
-window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
-    </pre>
+<pre class="line-numbers">
+<code class=" language-javascript">function test() {
+  var hello = "Hello World!"
+  if(hello && true) {
+    console.log(hello);
+  } else {
+    console.log('Go fuck yourself.');
+  }
+}</code>
+</pre>
             </div>
 
 
             <div role="tabpanel" class="tab-pane fade" id="one_click">
 
-                <pre class="codigo">
-<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
-  name = name || <span class="azul">"stranger";</span>
-  <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
-}
+<pre class="line-numbers">
+<code class="language-ruby">def destroy
+  if @card.blank?
+    return render_model_not_found_error('card')
+  end
 
-window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
-    </pre>
+  was_default_card = false
+
+  if @customer.default_payment_method && @customer.default_payment_method.id == @card.id
+    was_default_card = true
+  end
+
+  Event.create(
+    event_type: 'customer.card.deleted',
+    data: {card: @card},
+    commerce: @current_commerce
+  )
+
+  @card.update_attribute :status, 'deleted'
+
+  check_other_cards_and_set_default if was_default_card
+
+  head :no_content
+end</code>
+</pre>
             </div>
             <div role="tabpanel" class="tab-pane fade" id="cobros">
 
-                <pre class="codigo">
-<span class="rosa">function</span> <span class="verde">greetings</span><span class="azul">(</span>)<span class="azul">{</span>
-  name = name || <span class="azul">"stranger";</span>
-  <span class="rosa">return</span> <span class="azul">"Hello, "</span> + name + <span class="azul">"!";</span>
-}
+<pre class="line-numbers">
+<code class="language-javascript">function test() {
+  alert("Hello world!");
+}</code>
+</pre>
 
-window.onLoad = <span class="verde">alert</span>(<span class="verde">greetings</span><span class="azul">());</span>
-            </pre>
         </div>
     </div>
 </div>
