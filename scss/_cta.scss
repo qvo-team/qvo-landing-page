@@ -1,0 +1,11 @@
+section.cta {
+  text-align: center;
+
+  .inner {
+    max-width: 500px;
+  }
+
+  @media screen and (max-width: $screen-sm){
+    text-align: left;
+  }
+}

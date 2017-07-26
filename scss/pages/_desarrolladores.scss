@@ -15,7 +15,6 @@ $rocket-container-size: 200px;
   height: $rocket-container-size;
 }
 
-
 .rocket-box {
   z-index: 2;
   position: absolute;
@@ -28,4 +27,53 @@ $rocket-container-size: 200px;
 
 @media only screen and (max-width: 768px) {
   $rocket-container-size: 150px;
+}
+
+// Code
+.container_code {
+  width: 90%;
+  margin-top: 5%;
+}
+
+.tit_tab {
+  font-family: 'Oswald', sans-serif!important;
+  font-size: 1.1em;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container_code {
+    width: 90%;
+    margin-top: 5%;
+  }
+
+  .tit_tab {
+    font-family: 'Oswald', sans-serif!important;
+    font-size: 1.1em;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .container_code {
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  .tit_tab {
+    font-family: 'Oswald', sans-serif!important;
+    font-size: 1.1em;
+    width: 33.3%;
+  }
+}
+@media (min-width: 1200px) {
+  .container_code {
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  .tit_tab {
+    font-family: 'Oswald', sans-serif!important;
+    font-size: 1.1em;
+    width: 33.3%;
+  }
 }
