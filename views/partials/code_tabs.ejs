@@ -58,9 +58,21 @@ end</code>
             <div role="tabpanel" class="tab-pane fade" id="cobros">
 
 <pre class="line-numbers">
-<code class="language-javascript">function test() {
-  alert("Hello world!");
-}</code>
+<code class="language-php">// Set your secret key: remember to change this to your live secret key in production
+// See your keys here: https://dashboard.qvo.cl/account/apikeys
+\QVO\QVO::setApiKey("sk_test_BQokikJOvBiI2HlWgH4olfQ2");
+
+// Token is created using QVO.js or Checkout!
+// Get the payment token submitted by the form:
+$token = $_POST['QVOToken'];
+
+// Charge the user's card:
+$charge = \QVO\Charge::create(array(
+  "amount" => 1000,
+  "currency" => "usd",
+  "description" => "Example charge",
+  "source" => $token,
+));</code>
 </pre>
 
         </div>
