@@ -35,12 +35,11 @@
     }
 
     .personajes h3 {
-        font-family: 'Oswald', sans-serif!important;
-        color:#373946;
+        color: $dark;
     }
     .personajes h3 small {
         font-family: 'Lato', sans-serif;
-        color:#595959;
+        color: $text-muted;
     }
     .texto_equipo {
         margin-bottom:5%;

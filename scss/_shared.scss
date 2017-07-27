@@ -2,12 +2,6 @@
   -webkit-font-smoothing: antialiased !important;
 }
 
-/* Custom, iPhone Retina */
-
-h4 {
-  letter-spacing: 0.1em;
-}
-
 @media screen and(max-width: $screen-sm) {
   h2 {
     font-size: 26px;
